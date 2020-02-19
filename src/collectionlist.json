@@ -1,0 +1,44 @@
+{
+    "0": {
+        "id": "1",
+        "name": "Andes Sofa",
+        "image": "andes-4-piece-chaise-sectional-stone-twill-o.jpg",
+        "price": "$89"
+    },
+    "1": {
+        "id": "2",
+        "name": "Andes Loveseat",
+        "image": "andes-loveseat-60-o.jpg",
+        "price": "$65 - $70"
+    },
+    "2": {
+        "id": "3",
+        "name": "Andes L Shaped",
+        "image": "andes-l-shaped-sectional-o.jpg",
+        "price": "$45"
+    },
+    "3": {
+        "id": "4",
+        "name": "Andes Sofa",
+        "image": "andes-sofa-86-o.jpg",
+        "price": "$56 - $80"
+    },
+    "4": {
+        "id": "5",
+        "name": "Andes Sofa",
+        "image": "andes-sofa-113-1-o.jpg",
+        "price": "$120"
+    },
+    "5": {
+        "id": "6",
+        "name": "Andes Sofa",
+        "image": "andes-sofa-135-o.jpg",
+        "price": "$99 - $110"
+    },
+    "6": {
+        "id": "7",
+        "name": "Andes Terminal Chaise",
+        "image": "andes-terminal-chaise-sectional-o.jpg",
+        "price": "$200"
+    }
+}

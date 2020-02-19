@@ -1,0 +1,20 @@
+{
+  "email": {
+    "sharer": "mailto:?subject=@title&body=@url%0D%0A%0D%0A@description",
+    "type": "direct"
+  },
+
+  "facebook": {
+    "sharer": "https://www.facebook.com/sharer/sharer.php?u=@url&title=@title&description=@description&quote=@quote&hashtag=@hashtags",
+    "type": "popup"
+  },
+  "pinterest": {
+    "sharer": "https://pinterest.com/pin/create/button/?url=@url&media=@media&description=@title",
+    "type": "popup"
+  },
+
+  "twitter": {
+    "sharer": "https://twitter.com/intent/tweet?text=@title&url=@url&hashtags=@hashtags@twitteruser",
+    "type": "popup"
+  }
+}
