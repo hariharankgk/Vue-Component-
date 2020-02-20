@@ -24,6 +24,8 @@
     </ul>
     <br/>
     <collections></collections>
+    <br/>
+    <collectiontwo></collectiontwo>
   </div>
 </template>
 

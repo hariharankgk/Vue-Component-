@@ -3,9 +3,11 @@
         <div class="carousel">
             <carousel :per-page="4" :mouse-drag="false" :paginationEnabled="false" :navigationEnabled="true">
                 <slide v-for="(item, index) in collectionlist" :key="index" spacePadding="10px">
-                <img :src="require('../assets/'+item.image)" alt="item.name">
-                <h5>{{item.name}}</h5>
-                <p>{{item.price}}</p>
+                    <a :href="require('../assets/'+item.image)">
+                        <img :src="require('../assets/'+item.image)" alt="item.name">
+                        <h5>{{item.name}}</h5>
+                        <p>{{item.price}}</p>
+                    </a>
                 </slide>
             </carousel>
         </div>
@@ -43,6 +45,10 @@ export default {
         text-align: left;
         font-size:13px;
         color:rgba(0,0,0,0.7);
+    }
+    .carousel a {
+        text-decoration: none;
+        color:#000;
     }
     .VueCarousel-slide {
         text-align: left;
